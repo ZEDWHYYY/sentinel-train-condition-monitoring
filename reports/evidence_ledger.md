@@ -1,0 +1,11 @@
+# Threshold and feature evidence ledger
+
+Generated 2026-09-19T01:47:53 by `training/eda_reports.py`. Each row is a hypothesis with its selection and evaluation partitions. Figures are local development validation.
+
+| id | formula | units | condition | direction/cutoff | selection partition | evaluation partition | n | violations | metric effect |
+|---|---|---|---|---|---|---|---|---|---|
+| DOOR-OPEN-INTEGRAL | Σ current·Δt over cycle ÷ stream p25 baseline | ratio | Open movements | > 1.0986× baseline ⇒ Abnormal (absolute fallback > 2003.6) | all 110 training cycles (geometric midpoint of class-ratio gap) | 5 contiguous blocks (fold-refitted) | {'Normal': 40, 'Abnormal resistance': 15} | nearest Normal 1880.8, nearest Abnormal 2126.3; 1 CV miss | blocked-CV IoU-F1 0.991 |
+| DOOR-CLOSE-INTEGRAL | Σ current·Δt over cycle ÷ stream p25 baseline | ratio | Close movements | > 1.1290× baseline ⇒ Abnormal (absolute fallback > 1768.0) | all 110 training cycles (geometric midpoint of class-ratio gap) | 5 contiguous blocks (fold-refitted) | {'Normal': 40, 'Abnormal resistance': 15} | nearest Normal 1733.6, nearest Abnormal 1802.5; 1 CV miss | blocked-CV IoU-F1 0.991 |
+| ACV-PEER-RESIDUAL | mean(indoor − median indoor of other cooling cars) over settled valid cooling | K | active cooling modes, ≥10 min after entry, ≥3 peers | rank descending; review if top-2 margin < 0.5 K | preregistered, no fitted weights | leave-one-case-out (6) | 6 | case 04 true car ranked 2 | rank-decay 0.979 |
+| RAIL-TWO-STAGE | RF on side-aggregated time/spectral features; ET on side-contrast features | model score | speed-free features | fault score ≥ 0.5; side score ≥ 0.5 ⇒ Side II | stratified 5-fold × 5 seeds (model-selection validation) | same folds; speed-matched subset | 272 | {"Normal": {"Normal": 224, "Side I": 2, "Side II": 8}, "Side I": {"Normal": 3, "Side I": 9, "Side II": 2}, "Side II": {"Normal": 0, "Side I": 2, "Side II": 22}} | macro F1 full 0.810, matched 0.793 |
+| SHM-POWER-LAW | c·Σ nᵢ·rangeᵢ^m over gated rainflow cycles | damage (dimensionless) | gate 5.0 stress units | m=5.0, log c=-23.879 | gate and m chosen inside each LOO fold | leave-one-file-out (64) | 64 | see largest relative errors | score 0.975 |

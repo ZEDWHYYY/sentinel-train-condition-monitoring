@@ -1,0 +1,42 @@
+# Official datasets: separate clone of the organizer repository (7.5 GB) — never commit
+NebulaX-Hackathon-ProblemStatement/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv.*/
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+.next-*/
+tsconfig.tsbuildinfo
+
+# Runtime data and caches (regenerable)
+command-center/backend/run_store/
+.cache/
+prediction_exports/*
+!prediction_exports/README.md
+!prediction_exports/predictions.zip
+!prediction_exports/predictions_manifest.json
+!prediction_exports/predictions/
+
+# Local tool settings and OS files
+.DS_Store
+.logs/
+
+# Written by `make test` (regenerable)
+tests/fixtures/**/*.csv
+tests/fixtures/**/*.xlsx
+command-center/frontend/test-results/
+command-center/frontend/playwright-report/
+docs/screenshots/
+docs/TEST_CASES.md
+reports/tests_*.xml
+reports/full_suite.json
+reports/samples_after.json
+reports/fixtures_*.json
+reports/originals_api.json
+reports/sample_inventory.json

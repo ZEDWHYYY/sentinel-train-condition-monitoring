@@ -1,0 +1,469 @@
+[
+  {
+    "subsystem": "door",
+    "case": "healthy",
+    "file": "door/healthy.csv",
+    "rows": 3200,
+    "bytes": 222162,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "faulty",
+    "file": "door/faulty.csv",
+    "rows": 3200,
+    "bytes": 222157,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "borderline",
+    "file": "door/borderline.csv",
+    "rows": 3200,
+    "bytes": 222153,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "missing_column",
+    "file": "door/missing_column.csv",
+    "rows": 3200,
+    "bytes": 196904,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "extra_columns",
+    "file": "door/extra_columns.csv",
+    "rows": 3200,
+    "bytes": 308576,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "wrong_scale",
+    "file": "door/wrong_scale.csv",
+    "rows": 3200,
+    "bytes": 225363,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "gaps",
+    "file": "door/gaps.csv",
+    "rows": 3200,
+    "bytes": 222092,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "duplicate_timestamps",
+    "file": "door/duplicate_timestamps.csv",
+    "rows": 3200,
+    "bytes": 222161,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "outliers",
+    "file": "door/outliers.csv",
+    "rows": 3200,
+    "bytes": 222160,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "single_row",
+    "file": "door/single_row.csv",
+    "rows": 1,
+    "bytes": 302,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "empty",
+    "file": "door/empty.csv",
+    "rows": 0,
+    "seed": 20260919
+  },
+  {
+    "subsystem": "door",
+    "case": "large",
+    "file": "door/large.csv",
+    "rows": 100160,
+    "bytes": 7027050,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "door",
+    "case": "wrong_subsystem",
+    "file": "door/wrong_subsystem.csv",
+    "rows": 360,
+    "bytes": 183881,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "healthy",
+    "file": "acv/healthy.csv",
+    "rows": 360,
+    "bytes": 183881,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "faulty",
+    "file": "acv/faulty.csv",
+    "rows": 360,
+    "bytes": 183881,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "borderline",
+    "file": "acv/borderline.csv",
+    "rows": 360,
+    "bytes": 183881,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "missing_column",
+    "file": "acv/missing_column.csv",
+    "rows": 360,
+    "bytes": 176676,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "extra_columns",
+    "file": "acv/extra_columns.csv",
+    "rows": 360,
+    "bytes": 193615,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "wrong_scale",
+    "file": "acv/wrong_scale.csv",
+    "rows": 360,
+    "bytes": 206674,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "gaps",
+    "file": "acv/gaps.csv",
+    "rows": 360,
+    "bytes": 183325,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "duplicate_timestamps",
+    "file": "acv/duplicate_timestamps.csv",
+    "rows": 360,
+    "bytes": 183881,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "outliers",
+    "file": "acv/outliers.csv",
+    "rows": 360,
+    "bytes": 183879,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "single_row",
+    "file": "acv/single_row.csv",
+    "rows": 1,
+    "bytes": 2622,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "empty",
+    "file": "acv/empty.csv",
+    "rows": 0,
+    "seed": 20260919
+  },
+  {
+    "subsystem": "acv",
+    "case": "large",
+    "file": "acv/large.csv",
+    "rows": 100000,
+    "bytes": 50503051,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "wrong_subsystem",
+    "file": "acv/wrong_subsystem.csv",
+    "rows": 3200,
+    "bytes": 222162,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "acv",
+    "case": "healthy_workbook",
+    "file": "acv/healthy.xlsx",
+    "rows": 360,
+    "seed": 20260919
+  },
+  {
+    "subsystem": "rail",
+    "case": "healthy",
+    "file": "rail/healthy.csv",
+    "rows": 10000,
+    "bytes": 12777219,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "faulty",
+    "file": "rail/faulty.csv",
+    "rows": 10000,
+    "bytes": 11359115,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "borderline",
+    "file": "rail/borderline.csv",
+    "rows": 10000,
+    "bytes": 12486045,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "missing_column",
+    "file": "rail/missing_column.csv",
+    "rows": 10000,
+    "bytes": 12673771,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "extra_columns",
+    "file": "rail/extra_columns.csv",
+    "rows": 10000,
+    "bytes": 13047233,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "wrong_scale",
+    "file": "rail/wrong_scale.csv",
+    "rows": 10000,
+    "bytes": 10205046,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "gaps",
+    "file": "rail/gaps.csv",
+    "rows": 10000,
+    "bytes": 12776865,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "duplicate_timestamps",
+    "file": "rail/duplicate_timestamps.csv",
+    "rows": 10000,
+    "bytes": 12826119,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "outliers",
+    "file": "rail/outliers.csv",
+    "rows": 10000,
+    "bytes": 12777214,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "single_row",
+    "file": "rail/single_row.csv",
+    "rows": 1,
+    "bytes": 6662,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "empty",
+    "file": "rail/empty.csv",
+    "rows": 0,
+    "seed": 20260919
+  },
+  {
+    "subsystem": "rail",
+    "case": "large",
+    "file": "rail/large.csv",
+    "rows": 100000,
+    "bytes": 127714431,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "rail",
+    "case": "wrong_subsystem",
+    "file": "rail/wrong_subsystem.csv",
+    "rows": 3200,
+    "bytes": 222162,
+    "seed": 20260919,
+    "note": "Synthetic challenge; not held-out validation"
+  },
+  {
+    "subsystem": "shm",
+    "case": "healthy",
+    "file": "shm/healthy.csv",
+    "rows": 12000,
+    "bytes": 101438,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "faulty",
+    "file": "shm/faulty.csv",
+    "rows": 12000,
+    "bytes": 100719,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "borderline",
+    "file": "shm/borderline.csv",
+    "rows": 12000,
+    "bytes": 101043,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "missing_column",
+    "file": "shm/missing_column.csv",
+    "rows": 100,
+    "bytes": 3515,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "extra_columns",
+    "file": "shm/extra_columns.csv",
+    "rows": 12000,
+    "bytes": 425459,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "wrong_scale",
+    "file": "shm/wrong_scale.csv",
+    "rows": 12000,
+    "bytes": 145432,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "gaps",
+    "file": "shm/gaps.csv",
+    "rows": 12000,
+    "bytes": 101389,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "duplicate_timestamps",
+    "file": "shm/duplicate_timestamps.csv",
+    "rows": 12000,
+    "bytes": 162345,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "outliers",
+    "file": "shm/outliers.csv",
+    "rows": 12000,
+    "bytes": 101435,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "single_row",
+    "file": "shm/single_row.csv",
+    "rows": 1,
+    "bytes": 9,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "empty",
+    "file": "shm/empty.csv",
+    "rows": 0,
+    "seed": 20260919
+  },
+  {
+    "subsystem": "shm",
+    "case": "large",
+    "file": "shm/large.csv",
+    "rows": 100000,
+    "bytes": 844844,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  },
+  {
+    "subsystem": "shm",
+    "case": "wrong_subsystem",
+    "file": "shm/wrong_subsystem.csv",
+    "rows": 3200,
+    "bytes": 222162,
+    "seed": 20260919,
+    "note": "SHM high stress, not labelled structural fault"
+  }
+]

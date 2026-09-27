@@ -1,0 +1,21 @@
+# The Dockerfile copies only the app, models and validation results; keep local data,
+# dependencies, builds and caches out of the build context.
+.git
+.cache
+.logs
+.pytest_cache
+**/__pycache__
+**/*.pyc
+**/node_modules
+**/.next
+**/.next-*
+**/.venv
+**/.venv.*
+**/tsconfig.tsbuildinfo
+NebulaX-Hackathon-ProblemStatement
+command-center/backend/run_store
+command-center/frontend/test-results
+command-center/frontend/playwright-report
+tests/fixtures
+docs/screenshots
+prediction_exports/*/

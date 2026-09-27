@@ -1,0 +1,14 @@
+# Tested environment (Python 3.13, macOS arm64). scikit-learn is pinned exactly
+# because the frozen Rail estimators are joblib files built with this version.
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+openpyxl==3.1.5
+# tests
+pytest==9.1.1
+httpx==0.28.1
